@@ -1,35 +1,35 @@
 var userName = document.querySelector(".userName");
-var superPower = document.querySelector(".superPower");
+var itemQuantity = document.querySelector(".itemQuantity");
 var submitButton = document.querySelector(".submit-btn")
 var display = document.getElementById('getSuper');
  
 submitButton.addEventListener("click", becomeSuper); 
 
-function becomeSuper(event){
-  // console.log(userName.value)
-  event.preventDefault();
-  display.innerText = userName.value + " has " + superPower.value;
-}
-
-// function becomeSuper(event) {
+// function becomeSuper(event){
+//   // console.log(userName.value)
 //   event.preventDefault();
-//   console.log(event)
-//   var newFriend = {
-//     newName: nameInput.value,
-//     newNumber: numberInput.value,
-//     howFriendly: friendlyInput.value,
-//   }
-
-
-//   console.log(friendList);
-//   friendList.innerHTML +=  `
-//     <article class="friend-card" data-friendliness=${newFriend.howFriendly}>
-//       <h3>${newFriend.newName}</h3>
-//       <h4>${newFriend.newNumber}</h4>
-//       <p> Friendly Rating: ${newFriend.howFriendly} / 5<p>
-//     </article>
-//   `
+//   display.innerText = userName.value + " has " + superPower.value;
 // }
+
+function becomeSuper(event) {
+  event.preventDefault();
+  console.log(event)
+  var newFriend = {
+    dreamCame: userNAme.value,
+    newNumber: numberInput.value,
+    howFriendly: friendlyInput.value,
+  }
+
+
+  console.log(friendList);
+  friendList.innerHTML +=  `
+    <article class="friend-card" data-friendliness=${newFriend.howFriendly}>
+      <h3>${newFriend.newName}</h3>
+      <h4>${newFriend.newNumber}</h4>
+      <p> Friendly Rating: ${newFriend.howFriendly} / 5<p>
+    </article>
+  `
+}
 
 
 // 1. get text from .name and .superhero input;

@@ -15,20 +15,40 @@ h1 {
 }
 
 .user-input {
-  display: flex;
-  flex-direction: column;
   margin-top: 30px;
   background: #ECECEC;
+  padding-left: auto;
+  padding-right: auto;
 }
 
-.userName, .superPower {
-  width: 300px;
+.userListName {
   margin: 5px auto 5px auto;
   padding: 5px;
   font-size: 90%;
+  width: 300px;
 }
 
-.userName {
+.itemInput {
+  display: inline-block;
+  width: 245px;
+  margin: 5px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itemQuantity {
+  display: inline-block;
+  width: 50px;
+  margin: 5px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userListName {
   margin-top: 25px;
 }
 
