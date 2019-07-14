@@ -1,3 +1,7 @@
+/** {
+  border: 1px solid red;
+}*/
+
 * {
   margin: 0;
   padding: 0;
@@ -5,20 +9,63 @@
   font-family: Helvetica;
 }
 
+body {
+  background-color: #DCC7AA;
+}
+
 h1 {
-  font-size: 15px;
+  margin: 0;
+  font-size: 65px;
+  /*line-height: 100%;*/
+  color: #d9d9d9;
+  font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  font-size: 18px;
+  color: #d9d9d9;
+  font-family: 'Fredoka One', cursive;
+}
+
+header {
+  padding: 15px;
+  text-align: center;
+  height: 120px;
+  width: 100%;
+  background-color: #6B7A8F;
+  /*font-family: 'Fredoka One', cursive;*/
+}
+
+main {
+  width: 100%;
+  height: 675px;
+}
+
+.left-section {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.right-section {
+  width: 50%;
+  float: right;
+  height: 100%;
+  background-color: #F2EBE0;
 }
 
 .content {
-  margin: 10px auto;
+  margin: /*10px */auto;
   width: 400px;
 }
 
 .user-input {
   margin-top: 30px;
   background: #ECECEC;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .userListName {
@@ -48,15 +95,11 @@ h1 {
   margin-right: auto;
 }
 
-.userListName {
-  margin-top: 25px;
-}
-
 .submit-btn {
   width: 300px;
   padding: 5px;
   margin: 5px auto 25px auto;
-  background: #8A089B;
+  background: #F7882F;
   border: none;
   border-radius: 2px;
   color: #fff;
@@ -65,15 +108,16 @@ h1 {
 
 .card-container {
   padding: 30px;
-  background: #D3A2DA;
+  background: #F7C331;
 }
 
-.contact-card {
-  background: #fff;
-  padding: 8px;
-  margin-bottom: 15px;
-}
+/*Blueberry: #6B7A8F
 
-p {
-  padding: 2px;
-}
+Apricot: #F7882F
+
+Citrus: #F7C331
+
+Apple Core: #DCC7AA*/
+
+
+
